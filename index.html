@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/canvas.js"></script>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/canvas.css">
+</head>
+<body>
+<div class="box">
+    <div class="topnav">
+        <div class="Tnav">文件</div>
+        <div class="Tnav"><span class="tall kuang" date-col="stroke"></span><input type="color" class="stroke"></div>
+        <div class="Tnav"><span class="tall shi" date-col="fill"></span><input type="color" class="fill"></div>
+        <div class="Tnav"><input type="range" class="huakuai" max=10 min=0 step=1 value=1/></div>
+        <div class="Tnav"><input type="number" class="num" min=0 step=1 value=3/></div>
+        <div class="Tnav back">back</div>
+    </div>
+    <div class="menu">
+        <ul>
+            <li class="xinjian">新建</li>
+            <li class="baocun" style="border-bottom: none">保存</li>
+        </ul>
+    </div>
+    <div class="leftnav">
+        <div class="nav list-item" date-col="line"><span class="zhi">—</span></div>
+        <div class="nav list-item" date-col="circle"><span class="circle"></span></div>
+        <div class="nav1 list-item" date-col="line"><span class="pance"></span></div>
+        <div class="nav list-item" date-col="juxing"><span class="juxing"></span></div>
+        <div class="nav list-item" date-col="zhenfang"><span class="zhengfang"></span></div>
+        <div class="nav list-item" date-col="duobian"><span class="duobian"></span></div>
+        <div class="nav list-item" date-col="duojiao"><span class="duojiao"></span></div>
+        <div class="nav list-item" date-col="xiangpi"><span class="xiangpi"></span></div>
+    </div>
+    <div class="canvas">
+        <canvas width="800" height="600">
+            您的浏览器不支持画布
+        </canvas>
+        <div class="copy"></div>
+        <div class="xp"></div>
+    </div>
+
+</div>
+
+</body>
+</html>
